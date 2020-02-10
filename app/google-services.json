@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "782183307917",
+    "firebase_url": "https://fir-klikkipeli.firebaseio.com",
+    "project_id": "fir-klikkipeli",
+    "storage_bucket": "fir-klikkipeli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782183307917:android:47aef7a365f0b69a9a20c4",
+        "android_client_info": {
+          "package_name": "com.vmtikkanen.firebaseklikkipeli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782183307917-ie7urm9qsljesej4q6ol5otep97274r4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtRUjxKBz1yziYph_CNVPBxRUasNEuMME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782183307917-ie7urm9qsljesej4q6ol5otep97274r4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
