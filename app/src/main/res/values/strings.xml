@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">firebaseklikkipeli</string>
+    <string name="playerText">"Player: "</string>
+    <string name="NewGameDialogMessage">Game over! you lost all your points. Do you want to start over?</string>
+    <string name="NewGameDialogTitle">New game?</string>
+    <string name="ClicksNeededText">"Clicks needed for the next reward: "</string>
+    <string name="ClicksText">" clicks"</string>
+    <string name="YouWonText">"You won "</string>
+    <string name="PointsText">" points!"</string>
+    <string name="SomeoneElseWonText">Someone else won! :(!</string>
+    <string name="RewardsWonText">"Rewards won: "</string>
 </resources>

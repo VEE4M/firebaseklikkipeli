@@ -1,6 +1,5 @@
 package com.vmtikkanen.firebaseklikkipeli;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -51,12 +50,10 @@ public class RegisterActivity extends AppCompatActivity {
         cancelButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                finish();
             }
         });
-
         mAuth = FirebaseAuth.getInstance();
-
     }
 
     private void tryToRegister(String email, String password, String confirmPassword){
@@ -87,7 +84,6 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void createFirebaseUser(){
-        //email = (newUserNameEditText.getText().toString()+"@9870987f09dsdgsgf.com");
         Log.d(TAG, "createFirebaseUser: "+email);
         String password = newPasswordEditText.getText().toString();
         mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -99,9 +95,7 @@ public class RegisterActivity extends AppCompatActivity {
                     Log.d(TAG, "onComplete: could not create new user");
                 }else{
                     Log.d(TAG, "onComplete: new user registered");
-                    Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                     finish();
-                    startActivity(intent);
                 }
             }
         });
